@@ -32,7 +32,7 @@ public class LoginPageTest extends TestBase {
 	}
 
 	// access methods of loginpage class
-	
+	//test cases are executed according to priority, if priority is nnot set they will be executed according to their creation
 	@Test(priority=1)
 	public void loginPageTitleTest() {
 		String title = loginPage.verifyLoginPageTitle();
