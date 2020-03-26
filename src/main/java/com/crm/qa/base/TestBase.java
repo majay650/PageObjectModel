@@ -23,6 +23,7 @@ public class TestBase {
 	// public static WebDriverWait wait;
 
 	// initialize the properties file containing username, url, password, browser
+	//to test git
 	public TestBase() {
 		try {
 			prop = new Properties();
